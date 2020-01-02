@@ -19,3 +19,17 @@ let contentful = Contentful.createClient({
 
 Vue.use(VueContentful, contentful)
 ```
+
+## Usage:
+This wrapper bind `contentful` to `Vue` or `this` if you're using single file component.
+
+You can use `contentful` like this:
+```js
+Vue.contentful.get(api).then((response) => {
+  console.log(response.data)
+})
+
+this.contentful.get(api).then((response) => {
+  console.log(response.data)
+})
+```

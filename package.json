@@ -1,6 +1,6 @@
 {
   "name": "vue-contentful-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Contentful wrapper for Vue.",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/sebastianhaede/vue-contentful-api.git"
   },
+  "keywords": [
+    "vue",
+    "contentful",
+    "wrapper"
+  ],
   "author": "sebastian.haede",
   "license": "ISC",
   "bugs": {
