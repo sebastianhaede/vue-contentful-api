@@ -1,0 +1,19 @@
+{
+  "name": "vue-contentful-api",
+  "version": "1.0.0",
+  "description": "Contentful wrapper for Vue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianhaede/vue-contentful-api.git"
+  },
+  "author": "sebastian.haede",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vue-contentful-api/vue-contentful-api/issues"
+  },
+  "homepage": "https://github.com/vue-contentful-api/vue-contentful-api#readme"
+}
