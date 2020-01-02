@@ -25,11 +25,11 @@ This wrapper bind `contentful` to `Vue` or `this` if you're using single file co
 
 You can use `contentful` like this:
 ```js
-Vue.contentful.get(api).then((response) => {
-  console.log(response.data)
+Vue.contentful.getEntries().then((response) => {
+  console.log(response)
 })
 
-this.contentful.get(api).then((response) => {
-  console.log(response.data)
+this.contentful.getEntries().then((response) => {
+  console.log(response)
 })
 ```
