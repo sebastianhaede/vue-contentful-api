@@ -10,14 +10,14 @@ npm install --save contentful vue-contentful-api
 And in your entry file:
 ```js
 import * as Contentful from 'contentful'
-import VueContentful from 'vue-contentful-api'
+import VueContentfulApi from 'vue-contentful-api'
 
 let contentful = Contentful.createClient({
     space: 'SPACE-ID',
     accessToken: 'ACCESS-TOKEN',
 })
 
-Vue.use(VueContentful, contentful)
+Vue.use(VueContentfulApi, contentful)
 ```
 
 ## Usage:
