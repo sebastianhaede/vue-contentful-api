@@ -1,21 +1,19 @@
-(function () {
+export default {
 
     /**
-     * Install plugin
+     * Install plugin.
      * @param Vue
      * @param contentful
      */
 
-    function plugin (Vue, contentful) {
-        if (plugin.installed) return
-        plugin.installed = true
-
+    install(Vue, contentful)
+    {
         if (!contentful) {
-            throw new Error("[Vue-Echo] cannot locate options");
+            throw new Error("You have to install contentful.")
         }
 
         Vue.contentful = contentful
         Vue.prototype.contentful = contentful
     }
 
-})()
+}

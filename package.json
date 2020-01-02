@@ -1,6 +1,6 @@
 {
   "name": "vue-contentful-api",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Contentful wrapper for Vue.",
   "main": "index.js",
   "scripts": {
