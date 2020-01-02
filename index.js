@@ -1,4 +1,4 @@
-export default {
+module.exports = {
 
     /**
      * Install plugin.
@@ -6,7 +6,7 @@ export default {
      * @param contentful
      */
 
-    install(Vue, contentful)
+    install (Vue, contentful)
     {
         if (!contentful) {
             throw new Error("You have to install contentful.")
